@@ -14,4 +14,16 @@ class SecurePage extends Page {
     }
 }
 
+
+get btnLogout() {
+    // add you code here
+}
+async logout() {
+    await this.btnLogout.click();
+}
+
+
 export default new SecurePage();
+
+
+
